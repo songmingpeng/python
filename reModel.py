@@ -10,9 +10,7 @@ match=pattern.match('hello world!')
 
 if match:
     print(match.group())
-    
 
-    
 m=re.match(r'hello','hello world!')
 print(m.group(),'sec')
 
@@ -62,7 +60,11 @@ print(ss)
 # re→   ^    匹配字符串开头，多行中匹配每一行的开头；取反
 # re→   $    匹配字符串末尾，多行中匹配每一行的末尾
 # re→  \d    数字：[0-9]
-
+# re→  \D    非数字：[^\d]
+# re→  \s    空白字符[<空格>\t\r\n\f\v]
+# re→  \S    非空白字符
+# re→  \w    单词字符[]A-Za-z0-9]
+# re→  \W    非单词字符
 ##+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++##
 print('start+++++++++')
 
